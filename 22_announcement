@@ -1,0 +1,30 @@
+The DAOS team would like to announce the release of DAOS Version 2.2.
+ 
+It is a major release containing the following new features and improvements:
+
+* Rocky Linux 8 and Alma Linux 8 support have been added
+* CentOS Linux 8 support is removed
+* Support for the libfabric/tcp provider is added. It replaces libfabric/sockets
+* UCX support has been added (Technology Preview)
+* Interoperability of DAOS 2.2 with DAOS 2.0
+* Intel VMD devices are now supported in the control plane
+* POSIX containers (DFS) now support file modification time (mtime)
+
+The release also contains a number of the bugfixes and stability improvements.
+
+The complete list of changes can be found here: https://docs.daos.io/v2.2/release/release_notes/.
+ 
+There are several resources available for the release:
+ 
+RPM Repositories: https://packages.daos.io/v2.2/
+Admin Guide: https://docs.daos.io/v2.2/admin/hardware/
+User Guide: https://docs.daos.io/v2.2/user/workflow/
+Architecture Overview: https://docs.daos.io/v2.2/overview/architecture/
+Source Code: https://github.com/daos-stack/daos/releases/
+ 
+As always, feel free to use this mailing list for any issues you may find with the release or our JIRA bug tracking system, available at https://daosio.atlassian.net/jira. And reach out on our #community Slack channel at https://daos-stack.slack.com/archives/C4SM0RZ54.
+ 
+
+Thank you,
+ 
+Ivan Poddubnyy 
